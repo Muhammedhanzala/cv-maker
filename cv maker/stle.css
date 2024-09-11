@@ -1,0 +1,130 @@
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+.text-center {
+    text-align: center;
+}
+.my-2 {
+    margin: 10px 0;
+}
+.my-3 {
+    margin: 15px 0;
+}
+.text-secondary {
+    color: #6c757d;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+.form-control:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+textarea {
+    resize: vertical;
+}
+.btn {
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.btn-primary {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.btn-lg {
+    padding: 12px 24px;
+    font-size: 18px;
+}
+.background {
+    background-color: #f0f8ff; 
+    padding: 20px;
+    border-radius: 8px;
+}
+.myImg {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+}
+#main-name {
+    font-weight: 700;
+    font-size: 32px;
+    color: #2e8b57; 
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.card-header {
+    background-color: #4682b4; 
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.card-body {
+    padding: 15px;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+#work, #academic-qual {
+    margin: 0;
+    padding: 0;
+}
+#resume-template p {
+    margin: 10px 0;
+}
+#resume-template a {
+    color: #007bff; 
+    text-decoration: none;
+}
+#resume-template a:hover {
+    text-decoration: underline;
+}
+#print-btn {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#print-btn:hover {
+    background-color: #0056b3;
+}
+@media (max-width: 768px) {
+    .col-md-5, .col-md-8, .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

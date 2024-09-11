@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.V Maker</title>
+        <link rel="stylesheet" href="cv maker/stle.css">
+</head>
+<body>
+    <div class="container" id="resume-form">
+        <h1 class="text-center my-2">Resume Generator</h1>
+        <p class="text-center">"Muhammed Hanzala"</p>
+
+        <div class="row">
+            <div class="col-md-5">
+                <h3>Personal Information</h3>
+                <div class="form-group mt-2">
+                    <label for="nameField">Name</label>
+                    <input type="text" placeholder="ENTER YOUR NAME" class="form-control" id="name">
+                </div>
+
+                <div class="form-group mt-2">
+                    <label for="contactField">Your Contact Number</label>
+                    <input type="number" placeholder="ENTER YOUR NUMBER" class="form-control" id="contactField">
+                </div>
+
+                <div class="form-group mt-2">
+                    <label for="dateField">Date of Birth</label>
+                    <input type="date" placeholder="ENTER YOUR DOB" class="form-control" id="dateField">
+                </div>
+
+                <div class="form-group mt-2">
+                    <label for="addressField">Your Address</label>
+                    <textarea placeholder="ENTER YOUR ADDRESS" class="form-control" id="addressField"
+                        rows="5"></textarea>
+                </div>
+
+                <p class="text-secondary my-3">Important Links</p>
+
+                <div class="form-group mt-2">
+                    <label for="fbField">Facebook</label>
+                    <input type="text" class="form-control" id="fbField">
+                </div>
+
+                <div class="form-group mt-2">
+                    <label for="instaField">Instagram</label>
+                    <input type="text" class="form-control" id="instaField">
+                </div>
+
+                <div class="form-group mt-2">
+                    <label for="linkedField">LinkedIn</label>
+                    <input type="text" class="form-control" id="linkedField">
+                </div>
+
+            </div>
+
+
+            <div class="col-md-5">
+                <h3>Professional Information</h3>
+
+                <div class="form-group mt-2">
+                    <label for="">Objective</label>
+                    <textarea placeholder="ENTER HERE" class="form-control" id="objective" rows="5"></textarea>
+                </div>
+
+                <div class="form-group mt-2" id="workExperience">
+                    <label for="">Work Experience</label>
+                    <textarea placeholder="ENTER HERE" class="form-control weField" rows="3"></textarea>
+                </div>
+
+                <div class="container text-center mt-2" id="weAddButton">
+                    <button class="btn btn-primary btn-sm">Add</button>
+                </div>
+
+                <div class="form-group mt-2" id="qualification">
+                    <label for="">Academic Qualification</label>
+                    <textarea placeholder="ENTER HERE" class="form-control aqField" id="aqField" rows="3"></textarea>
+                </div>
+
+                <div class="container text-center mt-2" id="aqAddButton">
+                    <button class="btn btn-primary btn-sm">Add</button>
+                </div>
+            </div>
+
+            <div class="container text-center mt-3">
+                <button class="btn btn-primary btn-lg" id="generate-Resume">Generate Resume</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="resume-template">
+        <div class="row">
+            <div class="col-md-4 py-3 background text-center">
+                <img src="https://uxwing.com/wp-content/themes/uxwing/download/peoples-avatars/default-profile-picture-male-icon.png"
+                    alt="" class="img-fluid myImg">
+
+                <div class="container mt-2">
+                    <p id="username">Muhammed Hanzala</p>
+                    <p id="contact-num">  </p>
+                    <p id="DOB">23 Feb 2008</p>
+                    <p id="address">Kharadar , Karachi</p>
+                    <hr>
+
+                    <p id="link-1"><a
+                            href="#1"></a></p>
+                    <p id="link-2"><a href="#2"></a></p>
+                    <p id="link-3"><a href="#3"></a></p>
+
+                </div>
+            </div>
+
+            <div class="col-md-8 py-3">
+                <h1 class="text-center main-name" id="main-name">Muhammed Hanzala</h1>
+
+                <div class="card mt-4">
+                    <div class="card-header background">
+                        <h3>Objective</h3>
+                    </div>
+
+                    <div class="card-body">
+                        <p id="obj-field">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, inventore
+                            fugiat! Rerum
+                            exercitationem minus quo? Sunt porro doloremque id exercitationem neque libero quaerat
+                            nulla, accusantium suscipit esse maiores recusandae sit.</p>
+                    </div>
+
+                    <div class="card mt-4">
+                        <div class="card-header background">
+                            <h3>Work Experience</h3>
+                        </div>
+
+                        <div class="card-body">
+                            <ul id="work">
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, maiores?</li>
+                                <li>Velit aut voluptatibus molestias totam quidem, exercitationem quaerat ipsam!</li>
+                                <li>Quas similique, eveniet incidunt sint ipsam odio aliquid dolor quos .</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="card mt-4">
+                        <div class="card-header background">
+                            <h3>Academic Qualification</h3>
+                        </div>
+
+                        <div class="card-body">
+                            <ul id="academic-qual">
+                                <li>Matriculation</li>
+                                <li>Intermediate</li>
+                                <li>Diploma In General English</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="container mt-3 text-center">
+                        <button class="btn background" id="print-btn">
+                            Print Resume
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    <script src="cv maker/app.js"></script>
+</body>
+</html>
